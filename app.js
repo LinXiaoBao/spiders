@@ -1,7 +1,4 @@
-var http = require('http'),
-	https = require('https'),
-	fs = require('fs'), 
-	path = require('path'),
+var https = require('https'),
 	cheerio = require('cheerio'),
 	assert = require('assert'),
     MongoClient = require('mongodb').MongoClient;
