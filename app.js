@@ -26,6 +26,7 @@ function spiderMovie(index) {
                 };
                 if (movie) {
                     movies.push(movie);
+                    console.log("ljf");
                 }
             });
             saveData('movies', movies, function(result){
